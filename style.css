@@ -1,0 +1,141 @@
+body {
+	background-color: lightgrey !important;
+}
+
+tr:nth-child(even) {background: #CCC}
+
+tr {
+	font-size: 0.8em;
+}
+
+.ming-selected {
+	border-style: solid;
+	border-color: teal;
+}
+
+.ming-comparison-text {
+	margin-bottom:2em;
+}
+
+.ming-data-container {
+	overflow:auto;
+}
+
+.ming-comparison-head {
+	background-color: white;
+	color: teal;
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	border-width: thin;
+	font-size: 2.5em;
+	font-family: serif;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;	
+}
+
+.ming-home-left {
+	border-top:  4em solid lightgrey ;
+	border-right: 1em solid lightgrey ;
+	border-left: 1em solid lightgrey ;
+}
+
+.ming-home-right {
+	border-top:  4em solid lightgrey ;
+	border-right: 1em solid lightgrey ;
+	border-left: 1em solid lightgrey ;
+	height:100%;
+	padding-bottom: 3em;
+}
+
+
+.ming-bg-white {
+	background-color:white;
+}
+
+.ming-home-p-header {
+	background-color: white;
+	color: teal;
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	border-width: thin;
+	font-size: 3em;
+	font-family: serif;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 40px;
+}
+
+.ming-home-p {
+	font-family: sans-serif;
+}
+
+.ming-footer {
+	border-top-style: solid;
+	border-color: teal;
+	border-width: 10px;
+	background-color: grey;
+	text-align:center;
+	margin-top: 4em;
+	padding:1em;
+	color:white;
+}
+
+.ming-home-visual {
+	background-color: white;
+	color: teal;
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	border-width: thin;
+	font-size: 2.5em;
+	font-family: serif;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 40px;	
+}
+
+a.navbar-brand {
+	color: white !important;
+	background-color: teal;
+	height: 100%;
+	padding: 15px 15px;
+	margin-top: -8px;
+	margin-bottom: -8px;
+	margin-left: 5%;
+}
+
+/* For images scaling to their div size */
+.img-25 {
+	max-width:25%;
+	max-height:25%;
+	/*display: inline-block;*/
+}
+
+.img-50 {
+	max-width:50%;
+	max-height:50%;
+	/*display: inline-block;*/
+}
+
+.img-75 {
+	max-width:75%;
+	max-height:75%;
+	/*display: inline-block;*/
+}
+
+.img-100 {
+	max-width:100%;
+	max-height:100%;
+	/*display: inline-block;*/
+}
+
+.float-left {
+	float: left;
+}
+
